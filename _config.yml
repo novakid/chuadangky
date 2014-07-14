@@ -2,7 +2,7 @@
 title: chuadangky
 admin_email: nikenhn@gmail.com
 description: "Nhà chả có gì ngoài điều kiện hehe..."
-baseurl: ""
+baseurl: "/chuadangky"
 
 #starter settings
 fdtn_css: chuadangky/foundation/css
