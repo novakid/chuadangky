@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
+permalink: about/
 tags: topnav
-permalink: /about/
 ---
 
 Content of page
