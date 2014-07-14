@@ -1,0 +1,14 @@
+# Site settings
+title: chuadangky
+admin_email: nikenhn@gmail.com
+description: "Nhà chả có gì ngoài điều kiện hehe..."
+baseurl: ""
+
+#starter settings
+fdtn_css: chuadangky/foundation/css
+fdtn_js: chuadangky/foundation/js
+fdtn_img: chuadangky/foundation/img
+
+# Build settings
+markdown: kramdown
+permalink: pretty
