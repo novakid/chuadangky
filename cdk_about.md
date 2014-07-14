@@ -5,18 +5,4 @@ permalink: about/
 tags: topnav
 ---
 
-<a href="#" class="button split">Split Button <span data-dropdown="drop"></span></a><br>
-<ul id="drop" class="f-dropdown" data-dropdown-content>
-  <li><a href="#">This is a link</a></li>
-  <li><a href="#">This is another</a></li>
-  <li><a href="#">Yet another</a></li>
-</ul>
-
-<a href="#" class="[tiny small medium large] [secondary alert success] [radius round] button split">Split Button <span data-dropdown="drop"></span></a><br>
-<ul id="drop" class="f-dropdown" data-dropdown-content>
-  <li><a href="#">This is a link</a></li>
-  <li><a href="#">This is another</a></li>
-  <li><a href="#">Yet another</a></li>
-</ul>
-
 Content of page
