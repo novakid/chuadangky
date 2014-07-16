@@ -12,3 +12,8 @@ Site ở đây: http://novakid.github.io/chuadangky
 - `overflow: auto;` không hoạt động tốt trên mọi trình duyệt. [Giải pháp đây](http://filamentgroup.github.io/Overthrow/).
 - Foundation không hỗ trợ Orbit nữa. Có thể [thay bằng slick](https://github.com/kenwheeler/slick)
 - **Customize:** Gutter 1.250em, Max width: 71.250em. Tôi không thích chiều ngang có 62.5em (khoảng 1000px gì đó) của site mặc định.
+
+
+background:
+
+![background](https://dl.dropboxusercontent.com/u/335478/chalkboard.jpg)
