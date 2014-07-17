@@ -1,12 +1,10 @@
 <div class="row">
 <div class="columns">
 
-
   <!-- ===================================================price ======================== -->
+  {% for price in site.data.table-price %}
   <div class="medium-4 columns">
   <div class="row">
-  
-  {% for price in site.data.table-price %}
   
       <ul class="pricing-table">
         <li class="title">{{ price.name }}</li>
@@ -18,9 +16,9 @@
         <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
       </ul>
 
+  </div>
+  </div>
   {% endfor %}
-  </div>
-  </div>
   
 </div>
 </div>
