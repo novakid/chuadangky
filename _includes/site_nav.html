@@ -20,11 +20,14 @@
 
     <!-- Left Nav Section -->
     <ul class="left">
-    	{% for page in site.pages %}
-    	{% if page.tags == "topnav" %}
-      		<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-	{% endif %}
-	{% endfor %}
+
+      {% assign sorted_pages = (site.pages | sort: 'weight') %}
+      {% for page in sorted_pages %}
+        {% if page.tags == "topnav" %}
+          <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+
     </ul>
   </section>
 </nav>

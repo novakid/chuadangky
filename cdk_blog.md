@@ -3,6 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 tags: topnav
+weight: 3
 ---
 
 <div class="row">
