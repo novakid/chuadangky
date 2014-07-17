@@ -1,10 +1,8 @@
 <div class="row">
-<div class="columns">
 
   <!-- ===================================================price ======================== -->
   {% for price in site.data.table-price %}
   <div class="medium-4 columns">
-  <div class="row">
   
       <ul class="pricing-table">
         <li class="title">{{ price.name }}</li>
@@ -17,8 +15,6 @@
       </ul>
 
   </div>
-  </div>
   {% endfor %}
   
-</div>
 </div>
