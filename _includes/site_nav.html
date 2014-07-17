@@ -1,8 +1,8 @@
 <nav class="site-nav">
-	<ul>
+	<ul class="inline-list">
 		{% for page in site.pages %}
 		{% if page.tags == "topnav" %}
-			<li><a class="page-link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+			<li><a class="button" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
 		{% endif %}
 		{% endfor %}
 	</ul>
