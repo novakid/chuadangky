@@ -1,0 +1,23 @@
+<div class="columns">
+
+  <!-- ===================================================price ======================== -->
+  <div class="medium-4 columns">
+  <div class="row">
+  
+  {% for price in site.data.table-price %}
+  
+      <ul class="pricing-table">
+        <li class="title">{{ price.name }}</li>
+        <li class="price">${{ price.price }}</li>
+        <li class="description">{{ price.desc }}</li>
+        <li class="bullet-item">{{ price.line1 }}</li>
+        <li class="bullet-item">{{ price.line2 }}</li>
+        <li class="bullet-item">{{ price.line3 }}</li>
+        <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+      </ul>
+
+  {% endfor %}
+  </div>
+  </div>
+  
+</div>
