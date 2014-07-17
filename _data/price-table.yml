@@ -1,0 +1,20 @@
+- name: bang gia 1
+  price: 99.99
+  desc: mo ta san pham cua bang gia 1
+  line1: dong 1-1
+  line2: dong 1-2
+  line3: dong 1-3
+
+- name: bang gia 2
+  price: 999.9
+  desc: mo ta san pham cua bang gia 2
+  line1: dong 2-1
+  line2: dong 2-2
+  line3: dong 2-3
+
+- name: bang gia 3
+  price: 9999
+  desc: mo ta san pham cua bang gia 3
+  line1: dong 3-1
+  line2: dong 3-2
+  line3: dong 3-3
