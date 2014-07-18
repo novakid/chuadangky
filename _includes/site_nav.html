@@ -20,12 +20,11 @@
 
     <!-- Left Nav Section -->
     <ul class="left">
-      {% for pagelist in site.pages %}
-        {% if pagelist.tags == "topnav" %}
-        {% assign sorted_pages = ( pagelist | sort: 'weight') %}
-          {% for page in sorted_pages %}
+      {% for page in site.pages %}
+        {% if page.tags == "topnav" %}
+
             <li class="cardmenu-item"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-          {% endfor %}
+
         {% endif %}
       {% endfor %}
 
