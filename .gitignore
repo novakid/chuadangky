@@ -1,5 +1,6 @@
 _site
 _config.yml
+.idea
 
 .DS_Store
 .AppleDouble
